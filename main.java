@@ -13,7 +13,7 @@ public class main {
     public static void main(String args[]) {
         //develop_1.code();
         //learn.code();
-        //lab_2.lab_2();
+
 
         JOptionPane.showMessageDialog(null, "Дробишев Владислав\nВаріант-8");
         int lab = Integer.parseInt(JOptionPane.showInputDialog("Оберіть лабараторну роботу\n"
