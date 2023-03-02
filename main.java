@@ -20,16 +20,18 @@ public class main {
     public static void main(String args[]) {
         //develop_1.code();
         //develop_2.code();
-        lab_3.lab_3();
 
 
 
 
-        /*JOptionPane.showMessageDialog(null, "Дробишев Владислав\nВаріант-8");
+
+        JOptionPane.showMessageDialog(null, "Дробишев Владислав\nВаріант-8");
         int lab = Integer.parseInt(JOptionPane.showInputDialog("Оберіть лабараторну роботу\n"
                 + "- - - - - - - - - - - - - - - - - - - - - - - \n"
                 + "Lab_1 = 1\n"
                 + "Lab_2 = 2\n"
+                + "Lab_3 =3\n"
+
                 +"\n\n"
 
                 + "- - - - - - - - - - - - - - - - - - - - - - - \n"
@@ -70,7 +72,7 @@ public class main {
 
         }
 
-         */
+
 
 
 
