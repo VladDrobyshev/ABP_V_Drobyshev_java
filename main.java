@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 import lab_1.lab_1;
 import lab_2.lab_2;
 import lab_3.lab_3;
+import lab_4.lab_4;
 
 import Lectures.menu;
 import Lectures.lec_5;
@@ -20,6 +21,7 @@ public class main {
     public static void main(String args[]) {
         //develop_1.code();
         //develop_2.code();
+        //lab_4.lab_4();
 
 
 
@@ -30,7 +32,8 @@ public class main {
                 + "- - - - - - - - - - - - - - - - - - - - - - - \n"
                 + "Lab_1 = 1\n"
                 + "Lab_2 = 2\n"
-                + "Lab_3 =3\n"
+                + "Lab_3 = 3\n"
+                + "Lab_4 = 4\n"
 
                 +"\n\n"
 
@@ -56,6 +59,10 @@ public class main {
                 JOptionPane.showMessageDialog(null, "↻ Завантаження " + lab + "-ї лаби ↻");
                 lab_3.lab_3();
                 break;
+            case 4:
+                JOptionPane.showMessageDialog(null, "↻ Завантаження " + lab + "-ї лаби ↻");
+                lab_4.lab_4();
+                break;
 
 
 
@@ -71,6 +78,8 @@ public class main {
                 break;
 
         }
+
+
 
 
 
