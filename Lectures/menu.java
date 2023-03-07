@@ -11,6 +11,7 @@ public class menu {
                 + "- - - - - - - - - - - - - - - - - - - - - - - \n"
                 + "Завдання 4 = 4\n"
                 + "Завдання 5 = 5\n"
+                + "Завдання 6 = 6\n"
                 +"\n\n"
 
                 + "- - - - - - - - - - - - - - - - - - - - - - - \n"
@@ -29,6 +30,10 @@ public class menu {
             case 5:
                 JOptionPane.showMessageDialog(null, "↻ Завантаження " + lec + "-ї лаби ↻");
                 lec_5.code();
+                break;
+            case 6:
+                JOptionPane.showMessageDialog(null, "↻ Завантаження " + lec + "-ї лаби ↻");
+                lec_6.code();
                 break;
 
 

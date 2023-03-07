@@ -5,6 +5,9 @@ import lab_1.lab_1;
 import lab_2.lab_2;
 import lab_3.lab_3;
 import lab_4.lab_4;
+import lab_5.lab_5;
+import lab_6.lab_6;
+import lab_7.lab_7;
 
 import Lectures.menu;
 import Lectures.lec_5;
@@ -34,6 +37,9 @@ public class main {
                 + "Lab_2 = 2\n"
                 + "Lab_3 = 3\n"
                 + "Lab_4 = 4\n"
+                + "Lab_5 = 5\n"
+                + "Lab_6 = 6\n"
+                + "Lab_7 = 7\n"
 
                 +"\n\n"
 
@@ -63,6 +69,19 @@ public class main {
                 JOptionPane.showMessageDialog(null, "↻ Завантаження " + lab + "-ї лаби ↻");
                 lab_4.lab_4();
                 break;
+            case 5:
+                JOptionPane.showMessageDialog(null, "↻ Завантаження " + lab + "-ї лаби ↻");
+                lab_5.lab_5();
+                break;
+            case 6:
+                JOptionPane.showMessageDialog(null, "↻ Завантаження " + lab + "-ї лаби ↻");
+                lab_6.lab_6();
+                break;
+            case 7:
+                JOptionPane.showMessageDialog(null, "↻ Завантаження " + lab + "-ї лаби ↻");
+                lab_7.lab_7();
+                break;
+
 
 
 
