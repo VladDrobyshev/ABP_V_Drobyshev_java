@@ -71,7 +71,7 @@ public class lab_4{
 
         frame.add(label);
         frame.add(paint);
-        //frame.add(back);
+        frame.add(back);
 
 
 
